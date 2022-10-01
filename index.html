@@ -11,14 +11,14 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="./images/logo.png" height="26" alt="" class="mb-1" />
+          <img src="./assets/images/logo.png" height="26" alt="" class="mb-1" />
         </a>
         <button
           class="navbar-toggler"
@@ -55,52 +55,296 @@
         <div class="container py-5">
           <h2>Nosotros</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            odio facilis sapiente hic doloribus officiis deserunt obcaecati
-            reiciendis praesentium accusantium ab animi, asperiores magnam.
-            Labore architecto consequatur quasi unde quod numquam tenetur ad, in
-            provident aperiam molestias minus tempore. Ducimus veniam, nobis
-            possimus ut consequatur fugit recusandae illum iste facilis!
+            <span style="font-size: 30px"
+              >Con una cadena de suministro de Tailandia y un sistema de
+              servicio perfecto, AUFINE INC se compromete a brindar los mejores
+              neumáticos y el mejor servicio a los conductores y distribuidores
+              estadounidenses.</span
+            >
           </p>
+
+          <img
+            class="img-fluid"
+            src="./assets/images/about.jpeg"
+            data-isloading="1"
+          />
         </div>
       </section>
 
       <!-- tires -->
       <section id="neumaticos">
         <div class="container py-5">
-          <h2>Neumaticos</h2>
-          <div class="row g-3 overflow-hidden">
-            <div class="col-lg-6">
-              <img src="./images/tire1.jpg" alt="" class="img-fluid" />
+          <h2 class="text-center fs-1">NEUMATICOS</h2>
+          <div class="row g-5">
+            <div class="col-12 border-bottom border-2 border-primary py-3">
+              <img
+                src="./assets/images/neumaticos/ADR3.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <div class="table-responsive">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">TAMAÑO</th>
+                      <th scope="col">PR</th>
+                      <th scope="col">RANGO CARGA</th>
+                      <th scope="col">ESTILO</th>
+                      <th scope="col">INDICE CARGA</th>
+                      <th scope="col">PROFUNDIDAD mm</th>
+                      <th scope="col">VELOCIDAD MAX mph</th>
+                      <th scope="col">INDICE VELOCIDAD</th>
+                      <th scope="col">DIAMETRO TOTAL</th>
+                      <th scope="col">ANCHO PROMEDIO</th>
+                      <th scope="col">RIM ESTANDAR</th>
+                      <th scope="col">PSI MAX SIMPLE</th>
+                      <th scope="col">PSI MAX DUAL</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="col-lg-6">
-              <img src="./images/tire2.jpg" alt="" class="img-fluid" />
+            <div class="col-12 border-bottom border-2 border-primary py-3">
+              <img
+                src="./assets/images/neumaticos/AEL2.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <div class="table-responsive">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">TAMAÑO</th>
+                      <th scope="col">PR</th>
+                      <th scope="col">RANGO CARGA</th>
+                      <th scope="col">ESTILO</th>
+                      <th scope="col">INDICE CARGA</th>
+                      <th scope="col">PROFUNDIDAD mm</th>
+                      <th scope="col">VELOCIDAD MAX mph</th>
+                      <th scope="col">INDICE VELOCIDAD</th>
+                      <th scope="col">DIAMETRO TOTAL</th>
+                      <th scope="col">ANCHO PROMEDIO</th>
+                      <th scope="col">RIM ESTANDAR</th>
+                      <th scope="col">PSI MAX SIMPLE</th>
+                      <th scope="col">PSI MAX DUAL</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="col-lg-6">
-              <img src="./images/tire1.jpg" alt="" class="img-fluid" />
+            <div class="col-12 border-bottom border-2 border-primary py-3">
+              <img
+                src="./assets/images/neumaticos/AER3.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <div class="table-responsive">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">TAMAÑO</th>
+                      <th scope="col">PR</th>
+                      <th scope="col">RANGO CARGA</th>
+                      <th scope="col">ESTILO</th>
+                      <th scope="col">INDICE CARGA</th>
+                      <th scope="col">PROFUNDIDAD mm</th>
+                      <th scope="col">VELOCIDAD MAX mph</th>
+                      <th scope="col">INDICE VELOCIDAD</th>
+                      <th scope="col">DIAMETRO TOTAL</th>
+                      <th scope="col">ANCHO PROMEDIO</th>
+                      <th scope="col">RIM ESTANDAR</th>
+                      <th scope="col">PSI MAX SIMPLE</th>
+                      <th scope="col">PSI MAX DUAL</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="col-lg-6">
-              <img src="./images/tire2.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="col-lg-6">
-              <img src="./images/tire1.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="col-lg-6">
-              <img src="./images/tire2.jpg" alt="" class="img-fluid" />
+            <div class="col-12 border-bottom border-2 border-primary py-3">
+              <img
+                src="./assets/images/neumaticos/AF177.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <div class="table-responsive">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">TAMAÑO</th>
+                      <th scope="col">PR</th>
+                      <th scope="col">RANGO CARGA</th>
+                      <th scope="col">ESTILO</th>
+                      <th scope="col">INDICE CARGA</th>
+                      <th scope="col">PROFUNDIDAD mm</th>
+                      <th scope="col">VELOCIDAD MAX mph</th>
+                      <th scope="col">INDICE VELOCIDAD</th>
+                      <th scope="col">DIAMETRO TOTAL</th>
+                      <th scope="col">ANCHO PROMEDIO</th>
+                      <th scope="col">RIM ESTANDAR</th>
+                      <th scope="col">PSI MAX SIMPLE</th>
+                      <th scope="col">PSI MAX DUAL</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <td>295/80R22.5</td>
+                      <td>18</td>
+                      <td>J</td>
+                      <td>TL</td>
+                      <td>154/151</td>
+                      <td>16.5</td>
+                      <td>75</td>
+                      <td>L/M</td>
+                      <td>1044</td>
+                      <td>298</td>
+                      <td>9.00</td>
+                      <td>130</td>
+                      <td>130</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- contact -->
-      <section id="contacto">
+      <section id="contacto" class="bg-secondary">
         <div class="container py-5">
           <div class="row justify-content-center">
             <div class="col-lg-6">
-              <form action="" method="POST">
+              <form id="formContact">
                 <h2>Contactanos</h2>
                 <div class="mb-3">
                   <input
+                    required
                     type="text"
                     class="form-control"
                     name="nombre"
@@ -110,6 +354,7 @@
                 </div>
                 <div class="mb-3">
                   <input
+                    required
                     type="email"
                     class="form-control"
                     name="email"
@@ -119,6 +364,7 @@
                 </div>
                 <div class="mb-3">
                   <textarea
+                    required
                     placeholder="Mensaje"
                     class="form-control"
                     name="mensaje"
@@ -126,8 +372,17 @@
                     rows="3"
                   ></textarea>
                 </div>
-                <button class="btn btn-primary">Enviar</button>
+                <button class="btn btn-primary">
+                  <span
+                    class="spinner-border spinner-border-sm d-none"
+                    role="status"
+                    aria-hidden="true"
+                    id="btnSendingForm"
+                  ></span>
+                  Enviar
+                </button>
               </form>
+              <div class="mt-3" id="formResponse"></div>
             </div>
           </div>
         </div>
@@ -182,7 +437,12 @@
               >
             </div>
             <div class="col-lg-6 d-flex align-items-center">
-              <img src="./images/logo.png" alt="" height="35" class="m-auto" />
+              <img
+                src="./assets/images/logo.png"
+                alt=""
+                height="35"
+                class="m-auto"
+              />
             </div>
           </div>
         </div>
@@ -194,5 +454,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./assets/js/sendForm.js"></script>
   </body>
 </html>
